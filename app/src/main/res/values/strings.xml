@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Time Saver</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Main Activity -->
+    <string name="drawer_open_string">Drawer is now opened</string>
+    <string name="drawer_close_string">Drawer is now closed</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BaseThemeNoStatusBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryGreen</item>
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryGreenDark</item>-->
+        <item name="android:windowContentOverlay">@null</item>
+        <!--<item name="colorAccent">@color/?</item>-->
+        <item name="windowActionBar">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:statusBarColor">@color/colorPrimaryGreenDark</item>
+    </style>
+
+    <!-- this is used to handle the different behaviour of translucent status bar in API 19 vs API 21 -->
+    <bool name="fitsSystemWindowsFlag">true</bool>
+    <integer name="show_fake_status_bar">@integer/view_gone</integer> <!-- Only needed for API 19 -->
+</resources>
