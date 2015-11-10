@@ -1,5 +1,7 @@
 apply plugin: 'com.android.application'
-
+repositories {
+    maven { url "https://jitpack.io" }
+}
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.1"
@@ -27,4 +29,6 @@ dependencies {
     compile 'com.android.support:design:23.0.1'
     /* View injection */
     compile 'com.jakewharton:butterknife:7.0.1'
+    /* Simple library to easily wrap strings with html */
+    compile 'com.github.worker8:HtmlFormatter:v1.0.4'
 }
